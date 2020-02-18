@@ -22,6 +22,7 @@ function foundsecret {
 }
 function reset {
 		clear
+		echo "You are not allowed to stop this program."
 		sleepCount=$numberOfSleeps
 }
 # This function will send an error message to stderr
